@@ -1,1 +1,3 @@
-require("Antonio")
+require("config")
+require("initlazy")
+

@@ -9,6 +9,10 @@ return {
     "rafamadriz/friendly-snippets", -- useful snippets
     "onsails/lspkind.nvim", -- vs-code like pictograms
   },
+
+    'hrsh7th/cmp-nvim-lsp',
+    'hrsh7th/cmp-path',
+
   config = function()
     local cmp = require("cmp")
 
